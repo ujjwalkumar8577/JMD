@@ -1,0 +1,54 @@
+.jumbotron {
+  background-size: cover;
+  background-color: red;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+.for-margin {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.for-top-margin {
+  margin-top: 30px;
+}
+
+.for-padding {
+  padding: 2%;
+}
+
+.new-column {
+  padding: 5%;
+}
+
+.order-box {
+  background-color: blanchedalmond;
+  border-radius: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.badge-pill {
+  border-radius: 10%;
+}
+
+.image-box {
+  margin: auto;
+  width: 50%;
+}
+
+.image-box-small {
+  text-align: center;
+  margin: 20px;
+}
