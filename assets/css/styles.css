@@ -52,3 +52,13 @@
   text-align: center;
   margin: 20px;
 }
+
+.amount-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#amount {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
