@@ -18,6 +18,10 @@
   margin-top: 30px;
 }
 
+.for-bottom-margin {
+  margin-bottom: 30px;
+}
+
 .for-padding {
   padding: 2%;
 }
@@ -59,4 +63,8 @@
 #orders{
   background: blanchedalmond;
   padding: 5%;
+}
+
+#details-btn {
+  visibility: hidden;
 }
