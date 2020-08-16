@@ -224,12 +224,12 @@
                                     <label for="item2Field">Table Butter 50 gm</label>
                                     <input type="number" class="form-control" id="item2Qty">
                                 </div>
-                                <div class="form-group col-md-2">
-                                    <label for="item3Field">Table Butter 100 gm</label>
+                                <div class="form-group col-md-3">
+                                    <label for="item3Field">Table Butter 100 gm (TUB)</label>
                                     <input type="number" class="form-control" id="item3Qty">
                                 </div>
-                                <div class="form-group col-md-2">
-                                    <label for="item4Field">Table Butter 100 gm</label>
+                                <div class="form-group col-md-3">
+                                    <label for="item4Field">Table Butter 100 gm (CAKE)</label>
                                     <input type="number" class="form-control" id="item4Qty">
                                 </div>
                                 <div class="form-group col-md-2">
@@ -245,22 +245,59 @@
                             </div>
         
                             <div class="row amount-row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <button class="btn btn-lg btn-outline-success" id="calcbtn" onclick="calculate()" type="button">Calculate</button>
                                 </div>
 
-                                <div class="col-md-8">
+                                <div class="col-md-7">
                                     <span id="amount"></span>
                                 </div>
 
-                                <!-- <div class="col-md-2">
-                                    <button type="button" class="collapsible btn-collapsible">Details</button>
-                                </div> -->
+                                <div class="col-md-2">
+                                    <button class="btn btn-lg btn-outline-success" id="details-btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        Details
+                                    </button>
+                                </div>
                             </div>
 
-                            <!-- <div class="content">
-                                <p>Lorem ipsum...</p>
-                            </div> -->
+                            <!-- Collapsed Content Start-->
+                            <div class="collapse for-bottom-margin" id="collapseExample">
+                                <div class="card card-body badge-secondary">
+                                    <h4 class="text-center">Estimate</h4>
+                                    <div>
+                                        Name    : <span id="tab-name">NA</span><br>
+                                        Address : <span id="tab-address">NA</span><br>
+                                        Contact : <span id="tab-contact">NA</span><br>
+                                    </div>
+                                    <table class="table table-hover text-white for-top-margin"> 
+                                        <thead> 
+                                            <tr> 
+                                                <th scope="col"> S. N. </td>
+                                                <th scope="col"> Items </td>
+                                                <th scope="col"> Qty. </th>
+                                                <th scope="col"> Rate </td>
+                                                <th scope="col"> Amount </td>
+                                            </tr> 
+                                        </thead> 
+                                        <tbody id="tab-body"> 
+                                            <!-- Content from script.js  -->
+                                        </tbody> 
+                                        <thead> 
+                                            <tr> 
+                                                <th scope="col"> </td>
+                                                <th scope="col"> Total </td>
+                                                <th scope="col" id="tab-qty"> NA </th>
+                                                <th scope="col"> </td>
+                                                <th scope="col" id="tab-amt"> NA </td>
+                                            </tr> 
+                                        </thead> 
+                                    </table>
+                                    <div>
+                                        Total Amount Payable : Rs <span id="tab-amt-pb">NA</span><br>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- Collapsed Content End-->
                             
                             <button class="btn btn-lg btn-outline-success">Send</button>
                             
