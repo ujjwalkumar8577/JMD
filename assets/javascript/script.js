@@ -9,7 +9,7 @@ function calculate() {
     var contact=form.elements[2].value;
 
     var items=["Table Butter 22 gm","Table Butter 50 gm","Table Butter 100 gm (TUB)","Table Butter 100 gm (CAKE)","Table Butter 500 gm"];
-    var rates=[203,216,346,415,203];
+    var rates=[203,216,362,435,213];
     var qty= new Array();
     var amt=0;
 
